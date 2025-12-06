@@ -5,8 +5,14 @@ const Navbar = () => {
     <header className="sticky top-0 z-30">
       <div className="backdrop-blur-xl bg-slate-950/80 border-b border-white/5">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-          <div className="text-lg font-semibold tracking-tight">
-            SummitLine Digital
+          <div className="flex items-center gap-3">
+            <a href="/" aria-label="SummitLine Digital home" className="inline-flex items-center">
+              <img
+                src="/logo1.png"
+                alt="SummitLine Digital logo"
+                className="h-12 w-auto object-contain"
+              />
+            </a>
           </div>
           <nav className="hidden items-center gap-6 text-sm font-medium text-slate-200 md:flex">
             <a href="#services" className="transition hover:text-white">

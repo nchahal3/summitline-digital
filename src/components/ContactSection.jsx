@@ -55,7 +55,7 @@ const ContactSection = () => {
                   type="tel"
                   required
                   className="mt-2 rounded-lg border border-white/10 bg-slate-900/70 px-3 py-3 text-sm text-white placeholder:text-slate-500 focus:border-cyan-400/70 focus:outline-none"
-                  placeholder="(587) 555-0123"
+                  placeholder="(587) 555-5555"
                 />
               </div>
               <div className="flex flex-col">
@@ -109,7 +109,7 @@ const ContactSection = () => {
               </div>
               <div>
                 <div className="text-slate-400">Phone</div>
-                <div className="font-semibold text-white">(587) 555-0123</div>
+                <div className="font-semibold text-white">(587) 712-6190</div>
               </div>
             </div>
             <div className="rounded-lg border border-white/10 bg-white/5 px-4 py-3 text-xs text-slate-300">
