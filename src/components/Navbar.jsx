@@ -8,7 +8,7 @@ const Navbar = () => {
           <div className="flex items-center gap-3">
             <a href="/" aria-label="SummitLine Digital home" className="inline-flex items-center">
               <img
-                src="/logo1.png"
+                src="/logo.png"
                 alt="SummitLine Digital logo"
                 className="h-12 w-auto object-contain"
               />
